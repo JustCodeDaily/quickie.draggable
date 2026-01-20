@@ -1,7 +1,7 @@
 const { useState, useRef, useEffect } = React;
 
 function Draggable() {
- 
+  const position = { x: 500, y: 500 };
   return (
     <div
       style={{
